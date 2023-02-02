@@ -7,6 +7,11 @@ const contadorCarrito = document.getElementById('contadorCarrito')
 
 const precioTotal = document.getElementById('precioTotal')
 
+const cantidad = document.getElementById('cantidad')
+
+const cantidadTotal = document.getElementById('cantidadTotal')
+
+
 let carrito = []
 
 
@@ -113,7 +118,3 @@ const actualizarCarrito = () =>{
 
 
 
-
-const cantidad = document.getElementById('cantidad')
-
-const cantidadTotal = document.getElementById('cantidadTotal')
