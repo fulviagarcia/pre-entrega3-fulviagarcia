@@ -12,23 +12,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script defer src="stock.js"></script>
     <script defer src="modal.js"></script>
-    <script defer src="app.js"></script>
+    <script defer src="js/app.js"></script>
     
  </head>
 
 
  <body>
     <header>
-      <h1 id="titulo" class="titulo">After Eventos</h1>
+      <h1 id="titulo" class="titulo">Productos Sensoriales</h1>
         <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
 
     </header>
 
-    <select id="filtroTalle">
+    <select id="filtroModelo">
       <option value="all">Todos</option>
-      <option value="L">Large</option>
-      <option value="M">Medium</option>
-      <option value="S">Small</option>
+      <option value="m">motricidad fina</option>
+      <option value="l">lectoescritura</option>
+      <option value="S">Sensorial</option>
   </select>
 
 
@@ -41,11 +41,11 @@
             <h3>Carrito</h3>
             <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
             <div id="carrito-contenedor">
-                <!-- <div class="productoEnCarrito">
-                    <p>Buzo 1</p>
+                 <div class="productoEnCarrito">
+                    <p>sensorial 1</p>
                     <p>Precio: $1200</p>
                     <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
-                </div> -->
+                </div> 
             </div>
             <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
             <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
@@ -53,13 +53,11 @@
     </div>
 
 
- 
+    
 
 
-  <script src="app.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-   
   <script src="js/app.js"></script>
+  <script src="/modal.js"></script>
+  <script src="/modal.js"></script>
 </body>
 </html>
